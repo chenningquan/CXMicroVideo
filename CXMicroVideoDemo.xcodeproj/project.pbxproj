@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8407510022373B6600C30996 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840750FF22373B6600C30996 /* AppDelegate.m */; };
+		8407510922373B6600C30996 /* CXMicroVideoDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8407510722373B6600C30996 /* CXMicroVideoDemo.xcdatamodeld */; };
+		8407510B22373B6800C30996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8407510A22373B6800C30996 /* Assets.xcassets */; };
+		8407510E22373B6800C30996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8407510C22373B6800C30996 /* LaunchScreen.storyboard */; };
+		8407511122373B6800C30996 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407511022373B6800C30996 /* main.m */; };
+		8407511922373BB900C30996 /* CXRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407511822373BB900C30996 /* CXRootViewController.m */; };
+		8407511D22373F2900C30996 /* CXRecordVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407511C22373F2900C30996 /* CXRecordVideoViewController.m */; };
+		8407512222373F3800C30996 /* CXRecordFinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407511F22373F3800C30996 /* CXRecordFinishViewController.m */; };
+		84075126223740B500C30996 /* CXMicroVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84075125223740B500C30996 /* CXMicroVideoManager.m */; };
+		8407512B2237436900C30996 /* CXMicroVideoOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407512A2237436900C30996 /* CXMicroVideoOptions.m */; };
+		840751302237527E00C30996 /* UIViewController+CurrentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407512F2237527E00C30996 /* UIViewController+CurrentVC.m */; };
+		84075134223754D500C30996 /* CXPresentTransitionAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 84075133223754D500C30996 /* CXPresentTransitionAnimated.m */; };
+		B3D007649F81346BB1562A20 /* libPods-CXMicroVideoDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF758EB0C0D05C5139A098A /* libPods-CXMicroVideoDemo.a */; };
+		C5AD80D9B0FED087FA083C28 /* libPods-CXMicroVideoDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE1EA0CF634A8C164541293 /* libPods-CXMicroVideoDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EF758EB0C0D05C5139A098A /* libPods-CXMicroVideoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CXMicroVideoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		504EE7994B2BA36E420E2C6D /* Pods-CXMicroVideoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXMicroVideoDemo.release.xcconfig"; path = "Target Support Files/Pods-CXMicroVideoDemo/Pods-CXMicroVideoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		840750FB22373B6600C30996 /* CXMicroVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXMicroVideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840750FE22373B6600C30996 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		840750FF22373B6600C30996 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8407510822373B6600C30996 /* CXFileUpload.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CXFileUpload.xcdatamodel; sourceTree = "<group>"; };
+		8407510A22373B6800C30996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8407510D22373B6800C30996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8407510F22373B6800C30996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8407511022373B6800C30996 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8407511722373BB900C30996 /* CXRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXRootViewController.h; sourceTree = "<group>"; };
+		8407511822373BB900C30996 /* CXRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXRootViewController.m; sourceTree = "<group>"; };
+		8407511B22373F2900C30996 /* CXRecordVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXRecordVideoViewController.h; sourceTree = "<group>"; };
+		8407511C22373F2900C30996 /* CXRecordVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXRecordVideoViewController.m; sourceTree = "<group>"; };
+		8407511F22373F3800C30996 /* CXRecordFinishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXRecordFinishViewController.m; sourceTree = "<group>"; };
+		8407512322373F4000C30996 /* CXRecordFinishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXRecordFinishViewController.h; sourceTree = "<group>"; };
+		84075124223740B500C30996 /* CXMicroVideoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMicroVideoManager.h; sourceTree = "<group>"; };
+		84075125223740B500C30996 /* CXMicroVideoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMicroVideoManager.m; sourceTree = "<group>"; };
+		840751292237436900C30996 /* CXMicroVideoOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMicroVideoOptions.h; sourceTree = "<group>"; };
+		8407512A2237436900C30996 /* CXMicroVideoOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMicroVideoOptions.m; sourceTree = "<group>"; };
+		8407512E2237527E00C30996 /* UIViewController+CurrentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CurrentVC.h"; sourceTree = "<group>"; };
+		8407512F2237527E00C30996 /* UIViewController+CurrentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CurrentVC.m"; sourceTree = "<group>"; };
+		84075132223754D500C30996 /* CXPresentTransitionAnimated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPresentTransitionAnimated.h; sourceTree = "<group>"; };
+		84075133223754D500C30996 /* CXPresentTransitionAnimated.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPresentTransitionAnimated.m; sourceTree = "<group>"; };
+		A5B9FCB0865983375A3E63CF /* Pods-CXMicroVideoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXMicroVideoDemo.debug.xcconfig"; path = "Target Support Files/Pods-CXMicroVideoDemo/Pods-CXMicroVideoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B7583FF0EBAB2603A6B173E8 /* Pods-CXMicroVideoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXMicroVideoDemo.release.xcconfig"; path = "Target Support Files/Pods-CXMicroVideoDemo/Pods-CXMicroVideoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CAE1EA0CF634A8C164541293 /* libPods-CXMicroVideoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CXMicroVideoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27DEBAA96D91BEF9D236081 /* Pods-CXMicroVideoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXMicroVideoDemo.debug.xcconfig"; path = "Target Support Files/Pods-CXMicroVideoDemo/Pods-CXMicroVideoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840750F822373B6600C30996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD80D9B0FED087FA083C28 /* libPods-CXMicroVideoDemo.a in Frameworks */,
+				B3D007649F81346BB1562A20 /* libPods-CXMicroVideoDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840750F222373B6600C30996 = {
+			isa = PBXGroup;
+			children = (
+				840750FD22373B6600C30996 /* CXMicroVideoDemo */,
+				840750FC22373B6600C30996 /* Products */,
+				8920991BE6BA15DCE2C7D785 /* Pods */,
+				B2E00E5818FB0C0D392A9FFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		840750FC22373B6600C30996 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840750FB22373B6600C30996 /* CXMicroVideoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840750FD22373B6600C30996 /* CXMicroVideoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8407511A22373C1300C30996 /* CXMicroVideo */,
+				840750FE22373B6600C30996 /* AppDelegate.h */,
+				840750FF22373B6600C30996 /* AppDelegate.m */,
+				8407510A22373B6800C30996 /* Assets.xcassets */,
+				8407510C22373B6800C30996 /* LaunchScreen.storyboard */,
+				8407510F22373B6800C30996 /* Info.plist */,
+				8407511022373B6800C30996 /* main.m */,
+				8407510722373B6600C30996 /* CXMicroVideoDemo.xcdatamodeld */,
+				8407511722373BB900C30996 /* CXRootViewController.h */,
+				8407511822373BB900C30996 /* CXRootViewController.m */,
+			);
+			path = CXMicroVideoDemo;
+			sourceTree = "<group>";
+		};
+		8407511A22373C1300C30996 /* CXMicroVideo */ = {
+			isa = PBXGroup;
+			children = (
+				84075135223759D300C30996 /* Vender */,
+				840751312237549D00C30996 /* Support */,
+				8407512D2237522100C30996 /* Category */,
+				84075128223741D200C30996 /* Views */,
+				84075127223741CA00C30996 /* Controllers */,
+				84075124223740B500C30996 /* CXMicroVideoManager.h */,
+				84075125223740B500C30996 /* CXMicroVideoManager.m */,
+				840751292237436900C30996 /* CXMicroVideoOptions.h */,
+				8407512A2237436900C30996 /* CXMicroVideoOptions.m */,
+			);
+			path = CXMicroVideo;
+			sourceTree = "<group>";
+		};
+		84075127223741CA00C30996 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8407512322373F4000C30996 /* CXRecordFinishViewController.h */,
+				8407511F22373F3800C30996 /* CXRecordFinishViewController.m */,
+				8407511B22373F2900C30996 /* CXRecordVideoViewController.h */,
+				8407511C22373F2900C30996 /* CXRecordVideoViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84075128223741D200C30996 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8407512D2237522100C30996 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8407512E2237527E00C30996 /* UIViewController+CurrentVC.h */,
+				8407512F2237527E00C30996 /* UIViewController+CurrentVC.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		840751312237549D00C30996 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				84075132223754D500C30996 /* CXPresentTransitionAnimated.h */,
+				84075133223754D500C30996 /* CXPresentTransitionAnimated.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		84075135223759D300C30996 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		8920991BE6BA15DCE2C7D785 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5B9FCB0865983375A3E63CF /* Pods-CXMicroVideoDemo.debug.xcconfig */,
+				B7583FF0EBAB2603A6B173E8 /* Pods-CXMicroVideoDemo.release.xcconfig */,
+				D27DEBAA96D91BEF9D236081 /* Pods-CXMicroVideoDemo.debug.xcconfig */,
+				504EE7994B2BA36E420E2C6D /* Pods-CXMicroVideoDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2E00E5818FB0C0D392A9FFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1EA0CF634A8C164541293 /* libPods-CXMicroVideoDemo.a */,
+				3EF758EB0C0D05C5139A098A /* libPods-CXMicroVideoDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840750FA22373B6600C30996 /* CXMicroVideoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8407511422373B6800C30996 /* Build configuration list for PBXNativeTarget "CXMicroVideoDemo" */;
+			buildPhases = (
+				6C861E989A914E17489A78BF /* [CP] Check Pods Manifest.lock */,
+				840750F722373B6600C30996 /* Sources */,
+				840750F822373B6600C30996 /* Frameworks */,
+				840750F922373B6600C30996 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CXMicroVideoDemo;
+			productName = CXFileUpload;
+			productReference = 840750FB22373B6600C30996 /* CXMicroVideoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840750F322373B6600C30996 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "陈宁权";
+				TargetAttributes = {
+					840750FA22373B6600C30996 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 840750F622373B6600C30996 /* Build configuration list for PBXProject "CXMicroVideoDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840750F222373B6600C30996;
+			productRefGroup = 840750FC22373B6600C30996 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840750FA22373B6600C30996 /* CXMicroVideoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840750F922373B6600C30996 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8407510E22373B6800C30996 /* LaunchScreen.storyboard in Resources */,
+				8407510B22373B6800C30996 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C861E989A914E17489A78BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CXMicroVideoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840750F722373B6600C30996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8407512B2237436900C30996 /* CXMicroVideoOptions.m in Sources */,
+				8407510922373B6600C30996 /* CXMicroVideoDemo.xcdatamodeld in Sources */,
+				8407511122373B6800C30996 /* main.m in Sources */,
+				84075126223740B500C30996 /* CXMicroVideoManager.m in Sources */,
+				840751302237527E00C30996 /* UIViewController+CurrentVC.m in Sources */,
+				8407511D22373F2900C30996 /* CXRecordVideoViewController.m in Sources */,
+				8407510022373B6600C30996 /* AppDelegate.m in Sources */,
+				8407511922373BB900C30996 /* CXRootViewController.m in Sources */,
+				84075134223754D500C30996 /* CXPresentTransitionAnimated.m in Sources */,
+				8407512222373F3800C30996 /* CXRecordFinishViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8407510C22373B6800C30996 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8407510D22373B6800C30996 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8407511222373B6800C30996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8407511322373B6800C30996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8407511522373B6800C30996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27DEBAA96D91BEF9D236081 /* Pods-CXMicroVideoDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3JKK2868V;
+				INFOPLIST_FILE = CXMicroVideoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chennq.CXFileUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8407511622373B6800C30996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504EE7994B2BA36E420E2C6D /* Pods-CXMicroVideoDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3JKK2868V;
+				INFOPLIST_FILE = CXMicroVideoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chennq.CXFileUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840750F622373B6600C30996 /* Build configuration list for PBXProject "CXMicroVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8407511222373B6800C30996 /* Debug */,
+				8407511322373B6800C30996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8407511422373B6800C30996 /* Build configuration list for PBXNativeTarget "CXMicroVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8407511522373B6800C30996 /* Debug */,
+				8407511622373B6800C30996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8407510722373B6600C30996 /* CXMicroVideoDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8407510822373B6600C30996 /* CXFileUpload.xcdatamodel */,
+			);
+			currentVersion = 8407510822373B6600C30996 /* CXFileUpload.xcdatamodel */;
+			path = CXMicroVideoDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 840750F322373B6600C30996 /* Project object */;
+}
